@@ -1,0 +1,42 @@
+{
+  "name": "gulp-if-else",
+  "version": "1.0.0",
+  "description": "[Gulp plugin] Conditional task with \"if\" callback and \"else\" callback (optional): gulp.src(source).pipe( ifElse(condition, ifCallback, elseCallback) )",
+  "keywords": [
+    "gulpplugin",
+    "conditional",
+    "if",
+    "else"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "unitjs ./test/test.js --reporter spec"
+  },
+  "dependencies": {
+    "gulp-util": ">= 2.2.14 < 3.0.0"
+  },
+  "devDependencies": {
+    "unit.js": ">= 0.1.6 < 1.0.0"
+  },
+  "engines": {
+    "node": ">= 0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nicolab/gulp-if-else"
+  },
+  "author": {
+    "name":"Nicolas Tallefourtane",
+    "url":"http://nicolab.net"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Nicolab/gulp-if-else/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Nicolab/gulp-if-else/issues"
+  },
+  "homepage": "https://github.com/Nicolab/gulp-if-else"
+}
