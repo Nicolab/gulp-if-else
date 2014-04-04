@@ -44,6 +44,11 @@ describe('gulp-if-else', function(){
     lastPipe      = new Proxy();
   });
 
+  // close stream after each tests case
+  afterEach(function() {
+    process.exit(0);
+  });
+
   it('should call `callback` if `condition` is `true`', function(done){
 
     test
