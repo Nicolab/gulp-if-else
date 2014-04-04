@@ -3,7 +3,7 @@
 [![Actual version published on NPM](https://badge.fury.io/js/gulp-if-else.png)](https://www.npmjs.org/package/gulp-if-else)
 [![Dependencies](https://david-dm.org/Nicolab/gulp-if-else.png)](https://david-dm.org/Nicolab/gulp-if-else)
 
-A plugin for Gulp, allows conditional task, with "if" and "else" callback (optional).
+A plugin for Gulp, allows conditional task, with "if" callback and "else" callback (optional).
 
 
 ## Install
