@@ -1,6 +1,6 @@
 {
   "name": "gulp-if-else",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "[Gulp plugin] Conditional task with \"if\" callback and \"else\" callback (optional): gulp.src(source).pipe( ifElse(condition, ifCallback, elseCallback) )",
   "keywords": [
     "gulpplugin",
@@ -13,7 +13,7 @@
     "test": "unitjs ./test/test.js --reporter spec"
   },
   "dependencies": {
-    "gulp-util": ">= 2.2.14 < 3.0.0"
+    "gulp-util": "~3.0.0"
   },
   "devDependencies": {
     "unit.js": ">= 0.1.6 < 1.0.0"
