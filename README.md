@@ -2,6 +2,7 @@
 
 [![Actual version published on NPM](https://badge.fury.io/js/gulp-if-else.png)](https://www.npmjs.org/package/gulp-if-else)
 [![Dependencies](https://david-dm.org/Nicolab/gulp-if-else.png)](https://david-dm.org/Nicolab/gulp-if-else)
+[![npm module downloads per month](http://img.shields.io/npm/dm/gulp-if-else.svg)](https://www.npmjs.org/package/gulp-if-else)
 
 A plugin for Gulp, allows conditional task, with "if" callback and "else" callback (optional).
 
@@ -57,7 +58,7 @@ gulp.task('css', function() {
     .pipe(ifElse(process.env.NODE_ENV === 'production',
 
       // called if "NODE_ENV" is "production"
-      minifyCSS, 
+      minifyCSS,
 
       // called if "NODE_ENV" is "not" "production" (else)
       function() {
@@ -83,7 +84,7 @@ gulp.task('js', function() {
 
 ## Unit tests
 
-`gulp-if-else` is unit tested with [Unit.js](https://github.com/unitjs/unit.js)
+`gulp-if-else` is unit tested with [Unit.js](http://unitjs.com)
 
 Run the tests
 ```shell
@@ -109,5 +110,4 @@ npm test
 | [![Nicolas Tallefourtane - Nicolab.net](http://www.gravatar.com/avatar/d7dd0f4769f3aa48a3ecb308f0b457fc?s=64)](http://nicolab.net) |
 |---|
 | [Nicolas Talle](http://nicolab.net) |
-| [![Support via Gittip](http://img.shields.io/gittip/Nicolab.svg)](https://www.gittip.com/Nicolab/) |
-| [![Make a donation via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PGRH4ZXP36GUC) 
+| [![Make a donation via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PGRH4ZXP36GUC) |
